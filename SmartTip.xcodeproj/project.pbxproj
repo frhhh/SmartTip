@@ -14,6 +14,7 @@
 		0118D1441E07875A003329CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0118D1421E07875A003329CF /* LaunchScreen.storyboard */; };
 		0118D14F1E07875A003329CF /* SmartTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0118D14E1E07875A003329CF /* SmartTipTests.swift */; };
 		0118D15A1E07875A003329CF /* SmartTipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0118D1591E07875A003329CF /* SmartTipUITests.swift */; };
+		0118D1681E0796B4003329CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0118D1671E0796B4003329CF /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0118D1551E07875A003329CF /* SmartTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0118D1591E07875A003329CF /* SmartTipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartTipUITests.swift; sourceTree = "<group>"; };
 		0118D15B1E07875A003329CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0118D1671E0796B4003329CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0118D1401E07875A003329CF /* Assets.xcassets */,
 				0118D1421E07875A003329CF /* LaunchScreen.storyboard */,
 				0118D1451E07875A003329CF /* Info.plist */,
+				0118D1671E0796B4003329CF /* Images.xcassets */,
 			);
 			path = SmartTip;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0118D1441E07875A003329CF /* LaunchScreen.storyboard in Resources */,
+				0118D1681E0796B4003329CF /* Images.xcassets in Resources */,
 				0118D1411E07875A003329CF /* Assets.xcassets in Resources */,
 				0118D13F1E07875A003329CF /* Main.storyboard in Resources */,
 			);
@@ -413,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = HSZYW3F6T3;
 				INFOPLIST_FILE = SmartTip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -426,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = HSZYW3F6T3;
 				INFOPLIST_FILE = SmartTip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -512,6 +518,7 @@
 				0118D1601E07875A003329CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0118D1611E07875A003329CF /* Build configuration list for PBXNativeTarget "SmartTipTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +527,7 @@
 				0118D1631E07875A003329CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0118D1641E07875A003329CF /* Build configuration list for PBXNativeTarget "SmartTipUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +536,7 @@
 				0118D1661E07875A003329CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
